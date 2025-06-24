@@ -39,3 +39,53 @@ li a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+    gap: 12px;
+    align-items: center;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex-shrink: 1;
+}
+
+.box-right {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-button {
+    padding: 4px 24px;
+    font-size: 18px;
+    margin-top: 10px;
+    background: #3882f6;
+    border: 2px solid transparent;
+    width: 120px;
+    border-radius: 6px;
+    color: #f9faf8;
+}
+
+.sign-button:hover {
+    cursor: pointer;
+    border: 2px solid #f9faf8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
