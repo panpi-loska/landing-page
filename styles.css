@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.first-container, second-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.content-box {
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
