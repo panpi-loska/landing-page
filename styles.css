@@ -199,3 +199,9 @@ img {
     color: #f9faf8;
 }
 
+.call-right button:hover {
+    cursor: pointer;
+    color: #3882f6;
+    background-color: #f9faf8;
+    border-color: #3882f6 ;
+}
