@@ -115,13 +115,13 @@ img {
 
 .card-image {
     border: 4px solid #1f2937;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
 }
 
 .card-text {
-    width: 200px;
+    width: 250px;
     text-align: center;
     margin-top: 10px;
 }
@@ -137,12 +137,12 @@ img {
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .quote-author {
     align-self: flex-end;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .quote-container {
@@ -153,14 +153,49 @@ img {
 
 .fourth-container {
     background-color: white;
-    display: flex;     
-}
+    display: flex;  
+    justify-content: center;
 
+}
 
 .call-box {
     display: flex;
-    outline: 1px solid black;
+    border-radius: 12px;
     justify-content: center;
+    width: 70vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 56px;
+    background-color: #3882f6;
 }
 
+.call-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.call-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.call-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-right button{
+    padding: 4px 24px;
+    font-size: 18px;
+    background: #3882f6;
+    border: 2px solid #f9faf8;
+    width: 120px;
+    border-radius: 6px;
+    color: #f9faf8;
+}
 
