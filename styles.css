@@ -91,6 +91,7 @@ img {
 
 .second-container {
     background-color: white;
+    padding: 56px;
 }
 
 .sub-container {
@@ -100,7 +101,6 @@ img {
 }
 
 .information {
-    padding: 56px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -111,6 +111,7 @@ img {
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 56px;
 }
 
 .card-image {
@@ -146,7 +147,7 @@ img {
 }
 
 .quote-container {
-    padding: 100px;
+    padding: 100px 56px;
     display: flex;
     flex-direction: column;
 }
@@ -170,8 +171,8 @@ img {
 }
 
 .call-content {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 56px;
+    padding-right: 56px;
     display: flex;
     justify-content: space-between;
     flex: 1;
