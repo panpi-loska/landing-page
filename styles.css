@@ -206,3 +206,15 @@ img {
     background-color: #f9faf8;
     border-color: #3882f6 ;
 }
+
+.fifth-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+}
+
+.footer {
+    color: #E5E7EB;
+}
